@@ -1,4 +1,7 @@
-# 🧭 CS50 AI Maze Search Solver (Learning Project)
+# 🧭 AI Maze Search Solver — Exploring DFS and BFS Algorithms
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Course](https://img.shields.io/badge/CS50_AI-Harvard-red)]()
 
 This project explores AI search algorithms through maze-solving using Python.
 Inspired by Harvard’s CS50 Introduction to Artificial Intelligence with Python (Lecture 0: Search),
@@ -21,14 +24,15 @@ It builds a **state-space graph** and applies either **DFS** or **BFS** to find 
 ## 🧩 Example Maze
 
 ```text
-A#######
-#     #B
-# ### ###
-# #     #
-# #######
-#       #
-#########
+#####B#
+##### #
+####  #
+#### ##
+     ##
+A ######
 ```
+Run the solver using the sample [maze1.txt](maze1.txt).
+
 
 ### DFS Result (StackFrontier)
 Depth-First Search explores one branch completely before backtracking.  
